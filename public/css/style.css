@@ -1,0 +1,42 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.option-card {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.option-card:hover {
+  background-color: #f1f1f1;
+}
+
+.img-fluid {
+  max-height: 200px;
+  object-fit: contain;
+}
+
+#quizContainer {
+  min-height: 300px;
+}
+
+#resultAlert {
+  transition: all 0.3s;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
